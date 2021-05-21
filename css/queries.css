@@ -1,0 +1,227 @@
+@media only screen and (max-width:1200px)
+{
+    html{
+        font-size: 16px;
+    }
+    .heading-main-box{
+        transform: translate(-25%,-50px);
+    }
+
+    form{
+        margin-left: 30%;
+    }
+}
+
+/* Big tablet */
+@media only screen and (max-width:1023px)
+{
+    .logo{
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .main-nav{
+        margin-top: 40px;
+        margin-right: 15px;
+    }
+    .main-nav li{
+        margin-right: 10px;
+    }
+
+    .heading-main-box{
+        transform: translate(-20%,-50%);
+    }
+
+    .product-section{
+        width: 95%;
+    }
+
+    .product-section .btn{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    h3{
+        font-size: 90%;
+    }
+
+    .product-box ul li{
+        margin-left: 5%;
+    }
+
+    .product-box .small-icon{
+        margin-right: 5px;
+    }
+
+    .social-icon li{
+        margin-left: 10px;
+    }
+
+    .information i{
+        display: block;
+    }
+
+    .information li{
+        font-size: 14px;
+    }
+}
+
+/* Small phone and tablet */
+@media only screen and (max-width:767px)
+{
+    .col{
+        width: 100%;
+    }
+    .main-nav{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .mobile-nav-icon{
+        display: block;
+    }
+    .logo{
+        width: 350px;
+        margin-left: 15%;
+    }
+    h1{
+        word-spacing: 3px;
+        font-size: 250%;
+        transform: translate(-35% , 10%);
+        text-align: center;
+    }
+
+    .heading-main-box{
+        transform: translate(-17%,-50%);
+    }
+
+    .heading-main-box .btn{
+        width: 15%;
+    }
+
+    .about-section .row .p-long{
+        font-size: 20px;
+    }
+
+    .about-picture{
+        text-align: center;
+    }
+
+    .about-picture img{
+        width: 70%;
+    }
+
+    .picture-title{
+        font-size: 25px;
+    }
+
+    .product-box{
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .product-box ul li{
+        margin-left: 20%;
+    }
+
+    .testion .row .col{
+        margin-bottom: 50px;
+    }
+
+    figcaption{
+        visibility: hidden;
+    }
+
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    label{
+        margin-left: 30%;
+    }
+
+    .information{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .information i{
+        font-size: 20px;
+    }
+
+    .social-icon{
+        text-align: center;
+    }
+
+    .social-icon li{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:580px){
+    .mobile-nav-icon{
+        right: 45px;
+    }
+    h1{
+        word-spacing: 3px;
+        font-size: 250%;
+        transform: translate(-35% , 10%);
+        text-align: center;
+    }
+    
+}
+
+/* Small phone */
+@media only screen and (max-width:480px)
+{
+    html{
+        font-size: 12px;
+    }
+
+    h1{
+        line-height: 40px;
+        word-spacing: 3px;
+        font-size: -50%;
+        text-align: center;
+        transform: translate(-40%, 40%);
+    }
+
+    .logo{
+        width: 200px;
+        margin-top: 20%;
+        margin-left: 20%;
+    }
+
+    .information li{
+        font-size: 14px;
+    }
+
+    .social-icon li{
+        font-size: 30px;
+    }
+
+    form{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .heading-main-box{
+        transform: translate(-10%,-50%);
+        width: 15%;
+    }
+    .heading-main-box .btn{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        transform: translate(-20%, 150%);
+    }
+    .mobile-nav-icon{
+        top: 100px;
+    }
+    .sticky .logo{
+        width: 200px;
+        margin-top: -25px;
+    }
+}
